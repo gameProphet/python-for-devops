@@ -9,9 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Set up Python 3.12
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v7
         with:
-          python-version: 3.6
+          python-version: 3.12
       - name: install dependencies
         run: |
           make install
